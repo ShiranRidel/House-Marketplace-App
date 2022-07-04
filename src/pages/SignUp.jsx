@@ -90,6 +90,7 @@ function SignUp() {
               className="passwordInput"
               placeholder="Password"
               id="password"
+              autoComplete="on"
               value={password}
               onChange={onChange}
             />
